@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace McDonaldsFarmApp.UserData
 {
     internal class Farmer
@@ -23,6 +24,18 @@ namespace McDonaldsFarmApp.UserData
             _farmAnimals.Add(new Cat());
             _farmAnimals.Add(new Duck());
             _farmAnimals.Add(new Pig());
+            _farmAnimals.Add(new Horse());
+            _farmAnimals.Add(new Sheep());
+            _farmAnimals.Add(new Goat());
+            _farmAnimals.Add(new Rooster());
+            _farmAnimals.Add(new Turkey());
+            _farmAnimals.Add(new Donkey());
+            _farmAnimals.Add(new Owl());
+            _farmAnimals.Add(new Frog());
+            _farmAnimals.Add(new Elephant());
+            _farmAnimals.Add(new Rabbit());
+            
+
         }
 
         public void SingSong()
@@ -59,7 +72,7 @@ namespace McDonaldsFarmApp.UserData
             var animalSummary = new Dictionary<string, string>();
             foreach (var animal in _farmAnimals)
             {
-                animalSummary[animal.Name] = animal.Sound; // Adjust according to your animal object properties
+                animalSummary[animal.Name] = animal.Sound;
             }
             return animalSummary;
         }

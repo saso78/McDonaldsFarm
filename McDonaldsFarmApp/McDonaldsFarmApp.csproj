@@ -48,6 +48,7 @@
     <Compile Include="BaseData\Dog.cs" />
     <Compile Include="BaseData\Duck.cs" />
     <Compile Include="BaseData\FarmAnimal.cs" />
+    <Compile Include="BaseData\NewAnimals.cs" />
     <Compile Include="BaseData\Pig.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
